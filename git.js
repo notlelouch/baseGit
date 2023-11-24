@@ -65,25 +65,6 @@
         return this;
     }
 
-    // TEST
-    console.log("Test -->>");
-    var repo = new Git("test");
-    repo.commit("Initial commit");
-
-    console.assert(repo.HEAD.name === "master"); // Should be on master branch.
-    console.log("Current branch: " + repo.HEAD.name);
-    repo.checkout("testing");
-    console.assert(repo.HEAD.name === "testing"); // Should be on new testing branch.
-    console.log("Current branch: " + repo.HEAD.name);
-    repo.checkout("master");
-    console.assert(repo.HEAD.name === "master"); // Should be on master branch.
-    repo.commit("second commit");
-    console.log("Current branch: " + repo.HEAD.name);
-    repo.checkout("testing");
-    console.assert(repo.HEAD.name === "testing"); // Should be on testing branch again.
-
-    if (typeof window !== 'undefined') {
-        window.Git = Git;
-    }
+    module.exports = Git;
 
     ;})();
