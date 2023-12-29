@@ -1,3 +1,5 @@
+[![progress-banner](https://backend.codecrafters.io/progress/git/7cf1e9ba-3f46-4182-aecb-803f76da92cb)](https://app.codecrafters.io/users/notlelouch2?r=2qF)
+
 # baseGit
 
 Meet baseGit, a lightweight Git implementation in JavaScript that provides a simplified version of Git functionality for educational purposes. It allows you to create repositories, branches, commit changes, and switch between branches.
