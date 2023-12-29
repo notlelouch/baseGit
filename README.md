@@ -69,10 +69,4 @@ console.assert(repo.HEAD.name === "testing"); // Should be on the testing branch
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-1. Fork the repository
-2. Create a branch (git checkout -b feature/new-feature)
-3. Commit your changes (git commit -am 'Add new feature')
-4. Push to the branch (git push origin feature/new-feature)
-5. Open a pull request
+Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
